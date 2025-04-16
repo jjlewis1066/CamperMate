@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    /* Custom Campwise colors */
+    --sage-50: 150 20% 96%;
+    --sage-100: 150 16% 93%;
+    --sage-200: 150 14% 86%;
+    --sage-300: 150 12% 74%;
+    --sage-400: 150 10% 62%;
+    --sage-500: 150 8% 52%;
+    --sage-600: 150 10% 42%;
+    --sage-700: 150 12% 32%;
+    --sage-800: 150 14% 22%;
+    --sage-900: 150 18% 15%;
+    --sage-950: 150 24% 9%;
+
+    --ocean-50: 200 80% 96%;
+    --ocean-100: 200 76% 92%;
+    --ocean-200: 200 72% 86%;
+    --ocean-300: 200 68% 74%;
+    --ocean-400: 200 64% 62%;
+    --ocean-500: 200 60% 50%;
+    --ocean-600: 200 64% 42%;
+    --ocean-700: 200 68% 32%;
+    --ocean-800: 200 72% 22%;
+    --ocean-900: 200 76% 15%;
+    --ocean-950: 200 80% 9%;
+
+    --sand-50: 40 80% 96%;
+    --sand-100: 40 76% 92%;
+    --sand-200: 40 72% 86%;
+    --sand-300: 40 68% 74%;
+    --sand-400: 40 64% 62%;
+    --sand-500: 40 60% 50%;
+    --sand-600: 40 64% 42%;
+    --sand-700: 40 68% 32%;
+    --sand-800: 40 72% 22%;
+    --sand-900: 40 76% 15%;
+    --sand-950: 40 80% 9%;
+
+    --sunset-50: 20 80% 96%;
+    --sunset-100: 20 76% 92%;
+    --sunset-200: 20 72% 86%;
+    --sunset-300: 20 68% 74%;
+    --sunset-400: 20 64% 62%;
+    --sunset-500: 20 60% 50%;
+    --sunset-600: 20 64% 42%;
+    --sunset-700: 20 68% 32%;
+    --sunset-800: 20 72% 22%;
+    --sunset-900: 20 76% 15%;
+    --sunset-950: 20 80% 9%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
